@@ -13,15 +13,22 @@ npm install --save simple-datepicker
 ## Usage
 
 ```tsx
-import React, { Component } from 'react'
+import React, { useState } from 'react'
 
-import MyComponent from 'simple-datepicker'
-import 'simple-datepicker/dist/index.css'
+import { SimpleDatepicker } from 'simple-datepicker'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+const Example = () => {
+
+  const [date, setDate] = useState("");
+
+  const handler = (e: string) => setDate(e);
+
+  return (
+    <div>
+      <SimpleDatepicker onChange={(e) => handler(e.target.value)} />
+      {date}
+    </div>
+  )
 }
 ```
 
