@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 
 import { SimpleDatepicker } from 'simple-datepicker'
+import 'simple-datepicker/dist/index.css'
 
 const App = () => {
 
@@ -9,7 +10,7 @@ const App = () => {
   const handler = (e: string) => setDate(e);
 
   return (
-    <div>
+    <div style={{ margin: "200px" }}>
       <SimpleDatepicker onChange={(e) => handler(e.target.value)} />
       {date}
     </div>
