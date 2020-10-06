@@ -8,11 +8,11 @@ export interface FieldProps {
     onClick?: () => void;
 }
 
-
 const Field = ({ content = "", disabled = false, onClick }: FieldProps) => {
 
     return (
-        <div onClick={disabled ? () => { } : onClick} className={disabled ? `${styles.field} ${styles.disabled}` : `${styles.field}`}>
+        <div onClick={disabled ? () => { } : onClick}
+            className={disabled ? `${styles.field} ${styles.disabled}` : `${styles.field}`}>
             {content}
         </div>
     )

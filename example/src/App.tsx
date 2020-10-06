@@ -12,9 +12,9 @@ const App = () => {
   }
 
   return (
-    <div style={{ marginTop: "300px", marginLeft: "40%" }}>
-      <div style={{ height: "20px", fontSize: "15px" }}>{date}</div>
+    <div>
       <SimpleDatepicker onChange={(e) => handler(e.target.value)} />
+      {date}
     </div>
   )
 }
