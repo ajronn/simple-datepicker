@@ -34,8 +34,8 @@ const Example = () => {
 
 ## Properties
 
-### Props
-* onChange?: (e: { target: { value: string } }) => void;
+### Props of SimpleDatepicker
+* onChange
 
 ### Logic hook useCalendar actions
 * Date - current display date
@@ -46,6 +46,14 @@ const Example = () => {
 * CalcNumberDays - return array of Day type objects
 * GetShortDate - return short date in format "MMMM-yyyy"
  *GetLongDate - return long date in format "dd-MMMM-yyyy"
+
+ ### Day type
+ ```tsx
+interface Day {
+    dateNumber: string;
+    dayofweek: number;
+}
+```
 
 ## License
 
