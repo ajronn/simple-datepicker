@@ -31,6 +31,9 @@ const Example = () => {
   )
 }
 ```
+## Presentation
+
+![](animation.gif)
 
 ## Properties
 
