@@ -45,7 +45,7 @@ const Example = () => {
 * ChangeDate - set display date
 * CalcNumberDays - return array of Day type objects
 * GetShortDate - return short date in format "MMMM-yyyy"
- *GetLongDate - return long date in format "dd-MMMM-yyyy"
+* GetLongDate - return long date in format "dd-MMMM-yyyy"
 
  ### Day type
  ```tsx
