@@ -32,6 +32,21 @@ const Example = () => {
 }
 ```
 
+## Properties
+
+### Props
+* onChange?: (e: { target: { value: string } }) => void;
+
+### Logic hook useCalendar actions
+* Date - current display date
+* MONTHS - months list in full string format
+* DAYS_OF_WEEK - days list in short string format
+* DaysInMonth - how many days is the month
+* ChangeDate - set display date
+* CalcNumberDays - return array of Day type objects
+* GetShortDate - return short date in format "MMMM-yyyy"
+ *GetLongDate - return long date in format "dd-MMMM-yyyy"
+
 ## License
 
 MIT © [ajronn](https://github.com/ajronn)
