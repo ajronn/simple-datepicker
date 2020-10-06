@@ -1,6 +1,6 @@
 # simple-datepicker
 
-> Simple datepicker for your app!
+> Simple datepicker for your React app!
 
 [![NPM](https://img.shields.io/npm/v/simple-datepicker.svg)](https://www.npmjs.com/package/simple-datepicker) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
