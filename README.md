@@ -10,6 +10,10 @@
 npm install --save simple-datepicker
 ```
 
+## Exports
+* SimpleDatepicker
+* useCalendar
+
 ## Usage
 
 ```tsx
