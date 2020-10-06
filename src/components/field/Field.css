@@ -1,0 +1,21 @@
+.field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    min-width: 30px;
+    height: 30px;
+}
+
+.field:hover {
+    background-color: rgb(221, 221, 221);
+    border-radius: 10px;
+}
+
+.disabled {
+    cursor: default;
+}
+
+.disabled:hover {
+    background: none;
+}
